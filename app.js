@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 const exphbs = require('express-handlebars')
-const hbshelpers = require('handlebars-helpers')()
+// const hbshelpers = require('handlebars-helpers')()
 const trash = require('./trash.js')
 // 奇怪
 
