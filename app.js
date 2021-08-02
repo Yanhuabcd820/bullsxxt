@@ -23,9 +23,10 @@ app.get('/', (req, res) => {
   res.render('index')
 })
 app.post('/', (req, res) => {
-  console.log(req.body)
   const targetQuery = req.body.target
   const sentence = trash(targetQuery)
+
+  console.log('targetQuery', targetQuery)
   res.render('index', { targetQuery, sentence })
 
 })

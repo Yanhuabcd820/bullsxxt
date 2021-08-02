@@ -30,14 +30,14 @@ function makeTrashSentence(targetQuery) {
 
   let taskWho = task[`${targetQuery}`]
   let taskIndex = Math.floor(Math.random() * taskWho.length)
-  console.log(taskWho[taskIndex])
+  // console.log(taskWho[taskIndex])
 
   let phraseIndex = Math.floor(Math.random() * phrase.length)
-  console.log(phrase[phraseIndex])
+  // console.log(phrase[phraseIndex])
 
   let trashSentence = `身為一個${targetName}, ${taskWho[taskIndex]}, ${phrase[phraseIndex]}吧!`
 
-  console.log(targetQuery)
+  // console.log(targetQuery)
 
   return trashSentence
 

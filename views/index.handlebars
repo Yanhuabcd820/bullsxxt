@@ -6,7 +6,8 @@
       </div>
       <div class="card-body d-flex justify-content-center">
         <label class="card-text">
-          <input type="radio" aria-label="Radio button for following text input" name="target" value="engineer">
+          <input type="radio" aria-label="Radio button for following text input" name="target" value="engineer" {{#if
+            targetQuery==="engineer" }}checked{{/if}}>
           工程師
         </label>
       </div>
@@ -18,7 +19,8 @@
 
       <div class="card-body d-flex justify-content-center">
         <label class="card-text">
-          <input type="radio" aria-label="Radio button for following text input" name="target" value="designer">
+          <input type="radio" aria-label="Radio button for following text input" name="target" value="designer" {{#if
+            targetQuery==="designer" }}checked{{/if}}>
           設計師
         </label>
       </div>
@@ -29,7 +31,8 @@
       </div>
       <div class="card-body d-flex justify-content-center">
         <label class="card-text">
-          <input type="radio" aria-label="Radio button for following text input" name="target" value="entrepreneur">
+          <input type="radio" aria-label="Radio button for following text input" name="target" value="entrepreneur"
+            {{#if targetQuery==="entrepreneur" }}checked{{/if}}>
           創業家
         </label>
       </div>
